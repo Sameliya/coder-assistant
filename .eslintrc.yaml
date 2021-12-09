@@ -1,0 +1,17 @@
+extends:
+  - airbnb
+  - airbnb-typescript
+parserOptions:
+  project: ./tsconfig.json
+rules:
+  '@typescript-eslint/semi': 'off'
+  '@typescript-eslint/comma-dangle':
+    - 2
+    - only-multiline
+  'jsx-quotes': 'off'
+  'arrow-parens': 'off'
+  'react/jsx-one-expression-per-line': 'off'
+  '@typescript-eslint/no-shadow': 'off'
+  "react/function-component-definition":
+    - 2
+    - namedComponents: "function-declaration"
